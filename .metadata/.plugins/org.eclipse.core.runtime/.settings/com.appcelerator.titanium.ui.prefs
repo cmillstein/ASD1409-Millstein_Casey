@@ -1,5 +1,7 @@
 =run
 LAST_LAUNCH_TIMESTAMP=1409762684351
+Millstein_Casey_Project1\:launchMode=run
+Millstein_Casey_Project1\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.device.launchShortcut
 eclipse.preferences.version=1
 preference.show.console.onError=true
 preference.studio.perspective.version=103
