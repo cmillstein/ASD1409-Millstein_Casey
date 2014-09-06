@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;Millstein_Casey_Project1/Resources/app.js&quot;>&#xA;&lt;persistable path=&quot;/Millstein_Casey_Project1/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;/Users/caseymillstein/Desktop/MIU1408-Millstein_Casey/Millstein_Casey_InfoApp/app.js&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/caseymillstein/Desktop/MIU1408-Millstein_Casey/Millstein_Casey_InfoApp/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;/Users/caseymillstein/Desktop/MIU1408-Millstein_Casey/Millstein_Casey_AboutMeApp/app.js&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/caseymillstein/Desktop/MIU1408-Millstein_Casey/Millstein_Casey_AboutMeApp/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;data.js&quot; tooltip=&quot;Millstein_Casey_Project1/Resources/data.js&quot;>&#xA;&lt;persistable path=&quot;/Millstein_Casey_Project1/Resources/data.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.appcelerator.titanium.ui.ide.tiappEditor&quot; name=&quot;tiapp.xml&quot; tooltip=&quot;Millstein_Casey_Project1/tiapp.xml&quot;>&#xA;&lt;persistable path=&quot;/Millstein_Casey_Project1/tiapp.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_mZBiMTOJEeSj6LWS4qLFEQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_ml5gkjOJEeSj6LWS4qLFEQ" label="%trimmedwindow.label.eclipseSDK" x="339" y="30" width="1200" height="874">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_mZBiMTOJEeSj6LWS4qLFEQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_ml5gkjOJEeSj6LWS4qLFEQ" label="%trimmedwindow.label.eclipseSDK" x="240" y="22" width="1200" height="874">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workingSets/>"/>
@@ -92,24 +92,24 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_mpEwYDOJEeSj6LWS4qLFEQ" elementId="org.eclipse.ui.editorss" selectedElement="_mpEwYTOJEeSj6LWS4qLFEQ">
-      <children xsi:type="basic:PartStack" xmi:id="_mpEwYTOJEeSj6LWS4qLFEQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_3mGC0DPkEeSGtZMKKrwLiA">
+      <children xsi:type="basic:PartStack" xmi:id="_mpEwYTOJEeSj6LWS4qLFEQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_5CGGwDPkEeSGtZMKKrwLiA">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_3mGC0DPkEeSGtZMKKrwLiA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="app.js" iconURI="platform:/plugin/com.aptana.editor.js/icons/js.png" tooltip="Millstein_Casey_Project1/Resources/app.js" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Millstein_Casey_Project1/Resources/app.js&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;359&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Millstein_Casey_Project1/Resources/app.js&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;1&quot; selectionOffset=&quot;424&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.aptana.editor.js</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_5CGGwDPkEeSGtZMKKrwLiA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="data.js" iconURI="platform:/plugin/com.aptana.editor.js/icons/js.png" tooltip="Millstein_Casey_Project1/Resources/data.js" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Millstein_Casey_Project1/Resources/data.js&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1445&quot; selectionTopPixel=&quot;450&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.aptana.editor.js</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_5CGGwDPkEeSGtZMKKrwLiA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="data.js" iconURI="platform:/plugin/com.aptana.editor.js/icons/js.png" tooltip="Millstein_Casey_Project1/Resources/data.js" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Millstein_Casey_Project1/Resources/data.js&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1445&quot; selectionTopPixel=&quot;441&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.aptana.editor.js</tags>
-          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -190,18 +190,18 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mmv1IDOJEeSj6LWS4qLFEQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBLXUDYEEeS-lo7g8Xsypw" elementId="new.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBLXUTYEEeS-lo7g8Xsypw" elementId="newWizardDropDown"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBLXUjYEEeS-lo7g8Xsypw" elementId="new.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBLXUzYEEeS-lo7g8Xsypw" elementId="save.group" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBLXVDYEEeS-lo7g8Xsypw" elementId="save"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBLXVTYEEeS-lo7g8Xsypw" elementId="saveAll"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBLXVjYEEeS-lo7g8Xsypw" elementId="save.ext" visible="false"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_KBLXVzYEEeS-lo7g8Xsypw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.gif" tooltip="Print" command="_mZeOczOJEeSj6LWS4qLFEQ"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBNMgDYEEeS-lo7g8Xsypw" elementId="print.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBNzkDYEEeS-lo7g8Xsypw" elementId="build.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBNzkTYEEeS-lo7g8Xsypw" elementId="build.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBNzkjYEEeS-lo7g8Xsypw" elementId="additions"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44o6UDYJEeSDwPRUSsh46g" elementId="new.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44o6UTYJEeSDwPRUSsh46g" elementId="newWizardDropDown"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44o6UjYJEeSDwPRUSsh46g" elementId="new.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44o6UzYJEeSDwPRUSsh46g" elementId="save.group" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44o6VDYJEeSDwPRUSsh46g" elementId="save"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44o6VTYJEeSDwPRUSsh46g" elementId="saveAll"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44o6VjYJEeSDwPRUSsh46g" elementId="save.ext" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_44phYDYJEeSDwPRUSsh46g" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.gif" tooltip="Print" command="_mZeOczOJEeSj6LWS4qLFEQ"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44rWkDYJEeSDwPRUSsh46g" elementId="print.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44rWkTYJEeSDwPRUSsh46g" elementId="build.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44rWkjYJEeSDwPRUSsh46g" elementId="build.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44rWkzYJEeSDwPRUSsh46g" elementId="additions"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mmv1ITOJEeSj6LWS4qLFEQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -209,30 +209,30 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1jJToDPkEeSGtZMKKrwLiA" elementId="org.eclipse.debug.ui.breakpointActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkYDYEEeS-lo7g8Xsypw" elementId="breakpointGroup"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkYTYEEeS-lo7g8Xsypw" elementId="org.eclipse.debug.ui.actions.SkipAllBreakpoints"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEEDYJEeSDwPRUSsh46g" elementId="breakpointGroup"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEETYJEeSDwPRUSsh46g" elementId="org.eclipse.debug.ui.actions.SkipAllBreakpoints"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mppYIDOJEeSj6LWS4qLFEQ" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkYjYEEeS-lo7g8Xsypw" elementId="debug"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkYzYEEeS-lo7g8Xsypw" elementId="com.aptana.js.debug.ui.actions.openURL"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkZDYEEeS-lo7g8Xsypw" elementId="com.aptana.js.debug.ui.actions.ToggleBreakpoint"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkZTYEEeS-lo7g8Xsypw" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkZjYEEeS-lo7g8Xsypw" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkZzYEEeS-lo7g8Xsypw" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEEjYJEeSDwPRUSsh46g" elementId="debug"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEEzYJEeSDwPRUSsh46g" elementId="com.aptana.js.debug.ui.actions.openURL"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEFDYJEeSDwPRUSsh46g" elementId="com.aptana.js.debug.ui.actions.ToggleBreakpoint"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEFTYJEeSDwPRUSsh46g" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEFjYJEeSDwPRUSsh46g" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEFzYJEeSDwPRUSsh46g" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mprNUDOJEeSj6LWS4qLFEQ" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkaDYEEeS-lo7g8Xsypw" elementId="Search"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkaTYEEeS-lo7g8Xsypw" elementId="org.eclipse.search.OpenSearchDialogPage"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEGDYJEeSDwPRUSsh46g" elementId="Search"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEGTYJEeSDwPRUSsh46g" elementId="org.eclipse.search.OpenSearchDialogPage"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mpauoDOJEeSj6LWS4qLFEQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkajYEEeS-lo7g8Xsypw" elementId="Presentation"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkazYEEeS-lo7g8Xsypw" elementId="com.aptana.editor.common.toggleMarkOccurrences"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkbDYEEeS-lo7g8Xsypw" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkbTYEEeS-lo7g8Xsypw" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkbjYEEeS-lo7g8Xsypw" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEGjYJEeSDwPRUSsh46g" elementId="Presentation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEGzYJEeSDwPRUSsh46g" elementId="com.aptana.editor.common.toggleMarkOccurrences"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEHDYJEeSDwPRUSsh46g" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEHTYJEeSDwPRUSsh46g" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEHjYJEeSDwPRUSsh46g" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mmv1IzOJEeSj6LWS4qLFEQ" elementId="group.nav" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -240,15 +240,15 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mmwcMDOJEeSj6LWS4qLFEQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBNzkzYEEeS-lo7g8Xsypw" elementId="history.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBNzlDYEEeS-lo7g8Xsypw" elementId="group.application" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBNzlTYEEeS-lo7g8Xsypw" elementId="backardHistory"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBNzljYEEeS-lo7g8Xsypw" elementId="forwardHistory"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBNzlzYEEeS-lo7g8Xsypw" elementId="pin.group"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_KBNzmDYEEeS-lo7g8Xsypw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.gif" tooltip="Pin Editor" enabled="false" command="_mZcZEjOJEeSj6LWS4qLFEQ"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkbzYEEeS-lo7g8Xsypw" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkcDYEEeS-lo7g8Xsypw" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KCGkcTYEEeS-lo7g8Xsypw" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44rWlDYJEeSDwPRUSsh46g" elementId="history.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44rWlTYJEeSDwPRUSsh46g" elementId="group.application" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44rWljYJEeSDwPRUSsh46g" elementId="backardHistory"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44rWlzYJEeSDwPRUSsh46g" elementId="forwardHistory"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44rWmDYJEeSDwPRUSsh46g" elementId="pin.group"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_44rWmTYJEeSDwPRUSsh46g" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.gif" tooltip="Pin Editor" enabled="false" command="_mZcZEjOJEeSj6LWS4qLFEQ"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEHzYJEeSDwPRUSsh46g" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEIDYJEeSDwPRUSsh46g" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_45hEITYJEeSDwPRUSsh46g" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mmwcMTOJEeSj6LWS4qLFEQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -260,8 +260,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mmwcNTOJEeSj6LWS4qLFEQ" elementId="org.eclipse.ui.workbench.help">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBNzmTYEEeS-lo7g8Xsypw" elementId="group.help"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_KBNzmjYEEeS-lo7g8Xsypw" elementId="group.application" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44r9oDYJEeSDwPRUSsh46g" elementId="group.help"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_44r9oTYJEeSDwPRUSsh46g" elementId="group.application" visible="false"/>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_mn3PcDOJEeSj6LWS4qLFEQ" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>
@@ -647,7 +647,7 @@
       <tags>platform:cocoa</tags>
     </bindings>
     <bindings xmi:id="_maKxsDOJEeSj6LWS4qLFEQ" keySequence="COMMAND+SHIFT+D" command="_mZfcTTOJEeSj6LWS4qLFEQ"/>
-    <bindings xmi:id="_J6LXcTYEEeS-lo7g8Xsypw" keySequence="COMMAND+CTRL+F" command="_maQRQTOJEeSj6LWS4qLFEQ"/>
+    <bindings xmi:id="_4xzSgTYJEeSDwPRUSsh46g" keySequence="COMMAND+CTRL+F" command="_maQRQTOJEeSj6LWS4qLFEQ"/>
   </bindingTables>
   <bindingTables xmi:id="_maC14TOJEeSj6LWS4qLFEQ" elementId="org.eclipse.ui.textEditorScope.findbar" bindingContext="_mZh4hzOJEeSj6LWS4qLFEQ">
     <bindings xmi:id="_maC14jOJEeSj6LWS4qLFEQ" keySequence="ALT+K" command="_mZdAUTOJEeSj6LWS4qLFEQ"/>
@@ -735,7 +735,7 @@
     <bindings xmi:id="_maJjlzOJEeSj6LWS4qLFEQ" keySequence="CTRL+D" command="_mZdnLzOJEeSj6LWS4qLFEQ"/>
   </bindingTables>
   <bindingTables xmi:id="_maQRSDOJEeSj6LWS4qLFEQ" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_mZBiNjOJEeSj6LWS4qLFEQ">
-    <bindings xmi:id="_J6L-gDYEEeS-lo7g8Xsypw" keySequence="M1+W" command="_maQRRjOJEeSj6LWS4qLFEQ"/>
+    <bindings xmi:id="_4xzSgjYJEeSDwPRUSsh46g" keySequence="M1+W" command="_maQRRjOJEeSj6LWS4qLFEQ"/>
   </bindingTables>
   <bindingTables xmi:id="_mgWSMTOJEeSj6LWS4qLFEQ" bindingContext="_mgWSMDOJEeSj6LWS4qLFEQ"/>
   <bindingTables xmi:id="_mgWSMzOJEeSj6LWS4qLFEQ" bindingContext="_mgWSMjOJEeSj6LWS4qLFEQ"/>
