@@ -55,12 +55,3 @@ var tea = new Object();
 
 
 exports.crm = caramel;
-exports.choc = chocChip;
-exports.pmk = pumpkin;
-exports.jva = java;
-exports.vnl = vanilla;
-exports.cfm = coffeeMore;
-exports.coco = hotCoco;
-exports.ltm = latteMore;
-exports.mcm = macchiatoMore;
-exports.ice = tea;

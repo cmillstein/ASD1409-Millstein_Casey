@@ -18,7 +18,9 @@ var scrollView = Ti.UI.createScrollView({
 
 
 
-var loadFile = require("data");
+
+document.write("<script type='text/javascript' src='data.js'></"+"script>");
+
 
 //Labels
 
@@ -37,7 +39,7 @@ var caramelFrap = Ti.UI.createLabel({
 });
 
 caramelFrap.addEventListener("click", function(){
-	alert("The price of this drink is " + loadFile.crm.price + "\nThe sizes come in " + loadFile.crm.sizes);
+	alert("The price of this drink is " + caramel.price + "\nThe sizes come in " + caramel.sizes);
 });
 
 
@@ -56,7 +58,7 @@ var chocolateChip = Ti.UI.createLabel({
 });
 
 chocolateChip.addEventListener("click",function(){
-	alert("The main ingredients of this drink are " + loadFile.choc.ingredients);
+	alert("The main ingredients of this drink are " + chocChip.ingredients);
 });
 
 var pumpkinSpice = Ti.UI.createLabel({
@@ -74,7 +76,7 @@ var pumpkinSpice = Ti.UI.createLabel({
 });
 
 pumpkinSpice.addEventListener("click", function(){
-	alert(loadFile.pmk.ingredients + loadFile.pmk.topping);
+	alert(pumpkin.ingredients + pumpkin.topping);
 });
 
 var javaChip = Ti.UI.createLabel({
@@ -92,7 +94,7 @@ var javaChip = Ti.UI.createLabel({
 });
 
 javaChip.addEventListener("click", function(){
-	alert(loadFile.jva.chips + loadFile.jva.syrup);
+	alert(java.chips + java.syrup);
 });
 
 var vanillaBean = Ti.UI.createLabel({
@@ -110,7 +112,7 @@ var vanillaBean = Ti.UI.createLabel({
 });
 
 vanillaBean.addEventListener("click", function(){
-	alert(loadFile.vnl.cost + loadFile.vnl.size);
+	alert(vanilla.cost + vanilla.size);
 });
 
 var coffee = Ti.UI.createLabel({
@@ -128,7 +130,7 @@ var coffee = Ti.UI.createLabel({
 });
 
 coffee.addEventListener("click", function(){
-		alert("Comes" + loadFile.cfm.extra + "\nAlso comes in a " + loadFile.cfm.roast);
+		alert("Comes" + coffeeMore.extra + "\nAlso comes in a " + coffeeMore.roast);
 	});
 
 
@@ -149,7 +151,7 @@ var hotChocolate = Ti.UI.createLabel({
 });
 
 hotChocolate.addEventListener("click", function(){
-	alert(loadFile.coco.heat + loadFile.coco.flavor);
+	alert(hotCoco.heat + hotCoco.flavor);
 });
 
 
@@ -168,7 +170,7 @@ var latte = Ti.UI.createLabel({
 });
 
 latte.addEventListener("click", function(){
-	alert(loadFile.ltm.kinds + loadFile.ltm.price);
+	alert(latteMore.kinds + latteMore.price);
 });
 
 var macchiato = Ti.UI.createLabel({
@@ -186,7 +188,7 @@ var macchiato = Ti.UI.createLabel({
 });
 
 macchiato.addEventListener("click", function(){
-	alert(loadFile.mcm.flavor);
+	alert(macchiatoMore.flavor);
 });
 
 
@@ -205,7 +207,7 @@ var icedTea = Ti.UI.createLabel({
 });
 
 icedTea.addEventListener("click", function(){
-	alert(loadFile.ice.options + loadFile.ice.syrups);
+	alert(tea.options + tea.syrups);
 });
 
 
