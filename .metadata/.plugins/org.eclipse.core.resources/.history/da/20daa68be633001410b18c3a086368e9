@@ -1,0 +1,41 @@
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#EEE",
+	title: "Starbucks Drinks"
+});
+
+var navWindow = Ti.UI.iOS.createNavigationWindow({
+	window: mainWindow
+});
+
+var table = Ti.UI.createTableView({
+});
+
+var section = Ti.UI.createTableViewSection({
+	headerTitle: "Delicious Drinks!",
+});
+
+
+
+//Literal Notation
+
+
+var test = Ti.UI.createLabel({
+	text: "Test"
+});
+
+
+
+//Dot Notation
+
+
+var testSection = [section];
+	table.setData(testSection);
+
+
+
+if(Ti.Platform.name === "iPhone OS"){
+	table.style = Ti.UI.iPhone.TableViewStyle.GROUPED;
+}
+
+mainWindow.add(table, section, test);
+navWindow.open();

@@ -1,0 +1,106 @@
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#66d9ef",
+	title: "Starbucks Drinks"
+});
+
+var navWindow = Ti.UI.iOS.createNavigationWindow({
+	window: mainWindow
+});
+
+
+
+
+//Literal Notation
+
+var caramel = {
+	price: "5 Dollars",
+	sizes: "Small, Medium, Large"
+};
+
+
+
+
+//Dot Notation
+
+
+
+
+
+//Labels
+
+var caramelFrap = Ti.UI.createLabel({
+	borderColor: "#000",
+	borderWidth: 3,
+	backgroundColor: "#EEE",
+	text: "Caramel Frappuccino",
+	color: "#000",
+	textAlign: "center",
+	left: 15,
+	right: 15,
+	top: 70,
+	height: 45,
+	font: {fontSize: 18, fontWeight: "bold"}
+});
+
+caramelFrap.addEventListener("click", function(){
+	alert("The price of this drink is" + caramel.price);
+});
+
+var chocolateChip = Ti.UI.createLabel({
+	borderColor: "#000",
+	borderWidth: 3,
+	backgroundColor: "#EEE",
+	text: "Chocolate Chip Frappuccino",
+	color: "#000",
+	textAlign: "center",
+	left: 15,
+	right: 15,
+	top: 130,
+	height: 45,
+	font: {fontSize: 18, fontWeight: "bold"}
+});
+
+var pumpkinSpice = Ti.UI.createLabel({
+	borderColor: "#000",
+	borderWidth: 3,
+	backgroundColor: "#EEE",
+	text: "Pumpkin Spice Frappuccino",
+	color: "#000",
+	textAlign: "center",
+	left: 15,
+	right: 15,
+	top: 190,
+	height: 45,
+	font: {fontSize: 18, fontWeight: "bold"}
+});
+
+var javaChip = Ti.UI.createLabel({
+	borderColor: "#000",
+	borderWidth: 3,
+	backgroundColor: "#EEE",
+	text: "Java Chip Frappuccino",
+	color: "#000",
+	textAlign: "center",
+	left: 15,
+	right: 15,
+	top: 250,
+	height: 45,
+	font: {fontSize: 18, fontWeight: "bold"}
+});
+
+var vanillaBean = Ti.UI.createLabel({
+	borderColor: "#000",
+	borderWidth: 3,
+	backgroundColor: "#EEE",
+	text: "Vanilla Bean Frappuccino",
+	color: "#000",
+	textAlign: "center",
+	left: 15,
+	right: 15,
+	top: 310,
+	height: 45,
+	font: {fontSize: 18, fontWeight: "bold"}
+});
+
+mainWindow.add(caramelFrap, chocolateChip, pumpkinSpice, javaChip, vanillaBean);
+navWindow.open();

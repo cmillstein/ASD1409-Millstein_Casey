@@ -1,0 +1,42 @@
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#EEE",
+	title: "Starbucks Drinks"
+});
+
+var navWindow = Ti.UI.iOS.createNavigationWindow({
+	window: mainWindow
+});
+
+
+
+
+//Literal Notation
+
+
+
+
+
+
+//Dot Notation
+
+
+
+
+
+//Labels
+
+var caramel = Ti.UI.createLabel({
+	borderColor: "#EEEE",
+	borderWidth: 3,
+	text: "Caramel Frappuccino",
+	color: "#000",
+	textAlign: "center",
+	left: 15,
+	right: 15,
+	top: 70,
+	height: 45,
+	font: {fontSize: 18, fontWeight: "bold"}
+});
+
+mainWindow.add(caramel);
+navWindow.open();
