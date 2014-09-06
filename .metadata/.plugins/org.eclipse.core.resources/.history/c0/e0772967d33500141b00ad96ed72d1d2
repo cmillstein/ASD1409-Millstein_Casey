@@ -55,4 +55,3 @@ var tea = new Object();
 
 var dataArray = [caramel, chocChip, pumpkin, java, vanilla, coffeeMore, hotCoco, latteMore, macchiatoMore, tea];
 
-exports.data = dataArray;

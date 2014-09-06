@@ -17,10 +17,9 @@ var scrollView = Ti.UI.createScrollView({
 });
 
 
+var loadFile = require("data");
 
-
-var myData = require("data");
-
+loadFile.cfm();
 
 //Labels
 
@@ -212,7 +211,7 @@ icedTea.addEventListener("click", function(){
 
 
 
-
+ 
  
 
 

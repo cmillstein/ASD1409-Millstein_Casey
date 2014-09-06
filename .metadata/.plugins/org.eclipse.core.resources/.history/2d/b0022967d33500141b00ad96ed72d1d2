@@ -19,7 +19,7 @@ var scrollView = Ti.UI.createScrollView({
 
 
 
-var myData = require("data");
+
 
 
 //Labels
@@ -210,9 +210,9 @@ icedTea.addEventListener("click", function(){
 	alert(tea.options + tea.syrups);
 });
 
+var myData = require("data");
 
-
-
+ exports.data = dataArray;
  
 
 

@@ -18,7 +18,6 @@ var scrollView = Ti.UI.createScrollView({
 
 
 
-
 var myData = require("data");
 
 
@@ -212,7 +211,7 @@ icedTea.addEventListener("click", function(){
 
 
 
-
+ 
  
 
 

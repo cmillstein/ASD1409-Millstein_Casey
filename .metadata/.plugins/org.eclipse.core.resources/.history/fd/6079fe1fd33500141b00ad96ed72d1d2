@@ -19,7 +19,6 @@ var scrollView = Ti.UI.createScrollView({
 
 
 
-var myData = require("data");
 
 
 //Labels
@@ -42,6 +41,7 @@ caramelFrap.addEventListener("click", function(){
 	alert("The price of this drink is " + caramel.price + "\nThe sizes come in " + caramel.sizes);
 });
 
+var myData = require("data");
 
 var chocolateChip = Ti.UI.createLabel({
 	borderColor: "#000",
@@ -212,7 +212,7 @@ icedTea.addEventListener("click", function(){
 
 
 
-
+ 
  
 
 
