@@ -54,7 +54,7 @@ var tea = new Object();
 	
 
 	
-exports.crm = caramel;
+exports.crm = caramel, caramelFrap;
 exports.cc = chocChip;
 exports.pkn = pumpkin;
 exports.jva = java;
