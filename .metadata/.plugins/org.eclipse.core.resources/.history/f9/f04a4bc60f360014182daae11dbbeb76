@@ -17,8 +17,8 @@ var scrollView = Ti.UI.createScrollView({
 });
 
 
-var loadFile = require("data");
 
+var loadFile = require("data");
 
 //Labels
 
@@ -37,10 +37,8 @@ var caramelFrap = Ti.UI.createLabel({
 });
 
 caramelFrap.addEventListener("click", function(){
-	alert("The price of this drink is " + caramel.price + "\nThe sizes come in " + caramel.sizes);
+	loadFile.crm.sizes();
 });
-
-loadFile.crm();
 
 
 var chocolateChip = Ti.UI.createLabel({
@@ -58,7 +56,7 @@ var chocolateChip = Ti.UI.createLabel({
 });
 
 chocolateChip.addEventListener("click",function(){
-	alert("The main ingredients of this drink are " + chocChip.ingredients);
+	loadFile.choc.ingredients();
 });
 
 var pumpkinSpice = Ti.UI.createLabel({
@@ -76,7 +74,7 @@ var pumpkinSpice = Ti.UI.createLabel({
 });
 
 pumpkinSpice.addEventListener("click", function(){
-	alert(pumpkin.ingredients + pumpkin.topping);
+	loadFile.pmk.topping();
 });
 
 var javaChip = Ti.UI.createLabel({
@@ -94,7 +92,7 @@ var javaChip = Ti.UI.createLabel({
 });
 
 javaChip.addEventListener("click", function(){
-	alert(java.chips + java.syrup);
+	loadFile.jva.syrup();
 });
 
 var vanillaBean = Ti.UI.createLabel({
@@ -112,7 +110,7 @@ var vanillaBean = Ti.UI.createLabel({
 });
 
 vanillaBean.addEventListener("click", function(){
-	alert(vanilla.cost + vanilla.size);
+	loadFile.vnl.cost();
 });
 
 var coffee = Ti.UI.createLabel({
@@ -130,8 +128,8 @@ var coffee = Ti.UI.createLabel({
 });
 
 coffee.addEventListener("click", function(){
-		alert("Comes" + coffeeMore.extra + "\nAlso comes in a " + coffeeMore.roast);
-	});
+	loadFile.cfm.method();
+});
 
 
 
@@ -151,7 +149,7 @@ var hotChocolate = Ti.UI.createLabel({
 });
 
 hotChocolate.addEventListener("click", function(){
-	alert(hotCoco.heat + hotCoco.flavor);
+	loadFile.coco.method();
 });
 
 
@@ -170,7 +168,7 @@ var latte = Ti.UI.createLabel({
 });
 
 latte.addEventListener("click", function(){
-	alert(latteMore.kinds + latteMore.price);
+	loadFile.ltm.method();
 });
 
 var macchiato = Ti.UI.createLabel({
@@ -188,7 +186,7 @@ var macchiato = Ti.UI.createLabel({
 });
 
 macchiato.addEventListener("click", function(){
-	alert(macchiatoMore.flavor);
+	loadFile.mcm.method();
 });
 
 
@@ -207,11 +205,12 @@ var icedTea = Ti.UI.createLabel({
 });
 
 icedTea.addEventListener("click", function(){
-	alert(tea.options + tea.syrups);
+	loadFile.ice.method();
 });
 
 
- 
+
+
  
 
 
