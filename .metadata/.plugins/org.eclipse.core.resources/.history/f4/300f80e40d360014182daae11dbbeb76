@@ -2,38 +2,28 @@
 
 var caramel = {
 	price: "5 dollars",
-	sizes: function(){
-		alert("Comes in Small, Medium and Large");
-	}
+	sizes: "Small, Medium, Large"
 };
 
 var chocChip = {
 	price: "5 dollars",
-	ingredients: function(){
-		alert("The main ingredients of this drink are Milk, Chocolate Chips, Ice, Chocolate Syrup");
-	} 
+	ingredients: "Milk, Chocolate Chips, Ice, Chocolate Syrup"	
 };
 
 
 var pumpkin = {
 	ingredients: "Instead of regular milk, this drink comes with soy milk.",
-	topping: function(){
-		alert(" You can get whipped cream, or no whipped cream");
-	}
+	topping: " Also, you can get whipped cream, or no whipped cream"
 };
 
 
 var java = {
 	chips: "You can get either java chips, or regular chocolate chips. ",
-	syrup: function() {
-		alert("This drink comes with a chocolate syrup drizzle!");
-	} 
+	syrup: "It also comes with a chocolate syrup drizzle!"
 };
 
 var vanilla = {
-	cost: function(){
-	alert("The cost of this drink is $4.50 ");
-},
+	cost: "The cost of this drink is $4.50 ",
 	size: "It comes in small, medium, and large"	
 };
 
@@ -42,11 +32,8 @@ var vanilla = {
 var coffeeMore = new Object();
 	coffeeMore.roast = " blonde, medium or dark roast ";
 	coffeeMore.extra = " with or without cream and sugar";
-	coffeeMore.method = function(){
-		alert(this.roast + this.extra);
-};
-
-
+	
+	
 var hotCoco = new Object();
 	hotCoco.heat = " Comes as a kids temperature, or regular temperature.";
 	hotCoco.flavor = " You can also add peppermint flavor!";

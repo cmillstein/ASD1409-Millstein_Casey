@@ -37,7 +37,7 @@ var caramelFrap = Ti.UI.createLabel({
 });
 
 caramelFrap.addEventListener("click", function(){
-	loadFile.crm.sizes();
+	alert("The price of this drink is " + loadFile.crm.price + "\nThe sizes come in " + loadFile.crm.sizes);
 });
 
 
@@ -56,7 +56,7 @@ var chocolateChip = Ti.UI.createLabel({
 });
 
 chocolateChip.addEventListener("click",function(){
-	loadFile.choc.ingredients();
+	alert("The main ingredients of this drink are " + loadFile.choc.ingredients);
 });
 
 var pumpkinSpice = Ti.UI.createLabel({
@@ -74,7 +74,7 @@ var pumpkinSpice = Ti.UI.createLabel({
 });
 
 pumpkinSpice.addEventListener("click", function(){
-	loadFile.pmk.topping();
+	alert(loadFile.pmk.ingredients + loadFile.pmk.topping);
 });
 
 var javaChip = Ti.UI.createLabel({
@@ -92,7 +92,7 @@ var javaChip = Ti.UI.createLabel({
 });
 
 javaChip.addEventListener("click", function(){
-	loadFile.jva.syrup();
+	alert(loadFile.jva.chips + loadFile.jva.syrup);
 });
 
 var vanillaBean = Ti.UI.createLabel({
@@ -110,7 +110,7 @@ var vanillaBean = Ti.UI.createLabel({
 });
 
 vanillaBean.addEventListener("click", function(){
-	loadFile.vnl.cost();
+	alert(loadFile.vnl.cost + loadFile.vnl.size);
 });
 
 var coffee = Ti.UI.createLabel({
@@ -128,8 +128,8 @@ var coffee = Ti.UI.createLabel({
 });
 
 coffee.addEventListener("click", function(){
-	loadFile.cfm.method();
-});
+		alert("Comes" + loadFile.cfm.extra + "\nAlso comes in a " + loadFile.cfm.roast);
+	});
 
 
 

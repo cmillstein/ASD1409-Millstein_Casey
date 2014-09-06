@@ -25,15 +25,11 @@ var pumpkin = {
 
 var java = {
 	chips: "You can get either java chips, or regular chocolate chips. ",
-	syrup: function() {
-		alert("This drink comes with a chocolate syrup drizzle!");
-	} 
+	syrup: "It also comes with a chocolate syrup drizzle!"
 };
 
 var vanilla = {
-	cost: function(){
-	alert("The cost of this drink is $4.50 ");
-},
+	cost: "The cost of this drink is $4.50 ",
 	size: "It comes in small, medium, and large"	
 };
 

@@ -110,7 +110,7 @@ var vanillaBean = Ti.UI.createLabel({
 });
 
 vanillaBean.addEventListener("click", function(){
-	loadFile.vnl.cost();
+	alert(loadFile.vnl.cost + loadFile.vnl.size);
 });
 
 var coffee = Ti.UI.createLabel({

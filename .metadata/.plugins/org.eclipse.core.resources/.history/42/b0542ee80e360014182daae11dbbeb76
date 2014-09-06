@@ -74,7 +74,9 @@ var pumpkinSpice = Ti.UI.createLabel({
 });
 
 pumpkinSpice.addEventListener("click", function(){
-	loadFile.pmk.topping();
+	loadFile.pmk.topping(
+		
+	);
 });
 
 var javaChip = Ti.UI.createLabel({
@@ -92,7 +94,7 @@ var javaChip = Ti.UI.createLabel({
 });
 
 javaChip.addEventListener("click", function(){
-	loadFile.jva.syrup();
+	alert(loadFile.jva.chips + loadFile.jva.syrup);
 });
 
 var vanillaBean = Ti.UI.createLabel({
@@ -110,7 +112,7 @@ var vanillaBean = Ti.UI.createLabel({
 });
 
 vanillaBean.addEventListener("click", function(){
-	loadFile.vnl.cost();
+	alert(loadFile.vnl.cost + loadFile.vnl.size);
 });
 
 var coffee = Ti.UI.createLabel({
