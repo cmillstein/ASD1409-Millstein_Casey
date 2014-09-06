@@ -205,7 +205,7 @@ var icedTea = Ti.UI.createLabel({
 });
 
 icedTea.addEventListener("click", function(){
-	loadFile.ice.method();
+	tea.method();
 });
 
 

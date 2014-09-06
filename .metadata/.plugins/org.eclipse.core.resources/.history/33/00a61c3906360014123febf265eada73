@@ -2,7 +2,10 @@
 
 var caramel = {
 	price: "5 dollars",
-	sizes: "Small, Medium, Large"
+	sizes: function(click){
+		alert(" It also comes in small, medium and large.");
+	}
+	
 };
 
 var chocChip = {
@@ -50,9 +53,8 @@ var macchiatoMore = new Object();
 var tea = new Object();
 	tea.options = " You can choose from passion tea, green tea, or black tea.";
 	tea.syrups = " You can also add peach, blackberry, and mint flavors";
-	tea.method = function(){
-		alert(this.syrups);
-};
+	
+	
 
 
 exports.crm = caramel;

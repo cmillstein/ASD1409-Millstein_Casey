@@ -37,7 +37,7 @@ var caramelFrap = Ti.UI.createLabel({
 });
 
 caramelFrap.addEventListener("click", function(){
-	alert("The price of this drink is " + loadFile.crm.price + "\nThe sizes come in " + loadFile.crm.sizes);
+	alert(loadFile.crm["sizes"]);
 });
 
 
@@ -205,7 +205,7 @@ var icedTea = Ti.UI.createLabel({
 });
 
 icedTea.addEventListener("click", function(){
-	loadFile.ice.method();
+	alert(loadFile.ice.options + loadFile.ice.syrups);
 });
 
 
