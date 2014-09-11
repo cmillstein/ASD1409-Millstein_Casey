@@ -1,0 +1,10 @@
+var reddit = "http://api.reddit.com/";
+
+var returnData = Ti.Network.createHTTPClient({
+	onload: function() {
+		
+	},
+});
+
+
+client.open("GET", reddit);

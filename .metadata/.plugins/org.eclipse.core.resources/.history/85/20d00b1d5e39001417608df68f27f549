@@ -1,0 +1,39 @@
+var reddit = "http://api.reddit.com/";
+
+var pictureShow = function(rdt){
+	var nextWindow = Ti.UI.createWindow({
+		backgroundColor: "#EEE"
+	});
+	var image = Ti.UI.createImageView({
+		image: rdt.source.picture
+	});
+	nextWindow.add(img);
+	nextWindow.open();
+	nextWindow.addEventListener("click", function(){
+		this.close();
+	});
+};
+
+var success = function(){
+	alert("Here is your data!");
+	var replyData = JSON.parse(this.responseText);
+	var posts = replyData.data.children;
+};
+
+
+var error = function(){
+	alert("Oops, something went wrong!");
+};
+
+
+var client = Ti.Network.createHTTPClient({
+	onload: success,
+	onerror: error,
+	timeout: 5000
+});
+
+exports.picshow = pictureShow;
+
+client.open("GET", reddit);
+
+client.send();

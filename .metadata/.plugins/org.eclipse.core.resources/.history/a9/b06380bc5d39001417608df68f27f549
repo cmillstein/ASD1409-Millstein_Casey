@@ -1,0 +1,23 @@
+var reddit = "http://api.reddit.com/";
+
+var success = function(){
+	console.log("success");
+};
+
+
+var error = function(){
+	alert("Oops, something went wrong!");
+};
+
+
+var client = Ti.Network.createHTTPClient({
+	onload: success,
+	onerror: error,
+	timeout: 5000
+});
+
+
+
+client.open("GET", reddit);
+
+client.send();

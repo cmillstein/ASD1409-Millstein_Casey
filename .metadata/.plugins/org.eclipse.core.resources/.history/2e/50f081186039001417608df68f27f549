@@ -1,0 +1,33 @@
+
+
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#EEE"
+});
+
+var header = Ti.UI.createView({
+	height: 10,
+	backgroundColor: "#000",
+	top: 20
+});
+
+var headerLabel = Ti.UI.createLabel({
+	text: "Reddit Data",
+	font: {fontFamily: "Verdana", fontSize: "bold", fontWeight: "bold"},
+	color: "fff"
+});
+
+var scrollView = Ti.UI.createScrollView({
+  contentWidth: 'auto',
+  contentHeight: 'auto',
+  showVerticalScrollIndicator: true,
+  showHorizontalScrollIndicator: true,
+  height: '100%',
+  width: '100%'
+});
+
+
+var getData = require("data");
+
+header.add(headerLabel);
+mainWindow.add(scrollView, header);
+mainWindow.open();
