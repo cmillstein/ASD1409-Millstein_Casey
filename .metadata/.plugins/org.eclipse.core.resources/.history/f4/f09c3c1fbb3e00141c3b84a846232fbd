@@ -1,0 +1,9 @@
+var app = require("app");
+
+Ti.Database.install("database/iphoneDatabse.sqlite", "iphoneInfo");
+
+
+var createData = function(iphoneName, iphoneSize, iphoneColor, iphoneCarrier){
+	var db = Ti.Database.open("iphoneInfo");
+	db.execute('INSERT INTO iphones (iphoneName, iphoneSize, iphoneColor, iphoneCarrier ) VALUES (?,?,?,?)', iphoneName, iphoneSize, iphoneColor, iphoneCarrier );
+};

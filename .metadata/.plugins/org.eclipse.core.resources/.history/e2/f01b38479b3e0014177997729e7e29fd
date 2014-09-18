@@ -1,0 +1,10 @@
+Ti.UI.backgroundColor = 'white';
+var win = Ti.UI.createWindow();
+
+
+var table = Ti.UI.createTableView({
+
+});
+
+win.add(table);
+win.open();

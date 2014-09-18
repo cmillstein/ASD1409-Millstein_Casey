@@ -1,0 +1,81 @@
+
+var tabGroup = Titanium.UI.createTabGroup();
+
+
+
+var win1 = Titanium.UI.createWindow({  
+    title:'iPhones',
+    backgroundColor:'#fff'
+});
+var tab1 = Titanium.UI.createTab({  
+    icon:'KS_nav_views.png',
+    title:'Phones',
+    window:win1
+});
+
+var tableData = Ti.UI.createTableView({
+	backgroundColor: "#fff",
+	height: Ti.UI.FILL
+});
+
+var phoneTable = function(phoneData){
+	
+	var dataTable = [];
+	for (i in phoneData) {
+		var tableRows = Ti.UI.createTableViewRow({
+			id: phoneData[i].id,
+			width: Ti.UI.FILL,
+			height: "50dp",
+		});
+		var tableView = Ti.UI.createView({
+		layout: "vertical",
+		left: "15dp",
+		top: "5dp",
+		height: Ti.UI.FILL,
+		width: Ti.UI.FILL	
+	});
+	
+ 
+	tableRows.add(tableView);
+	dataTable.push(tableRows);
+	
+}
+	tableData.setData(dataTable);
+};
+
+
+
+
+
+var win2 = Titanium.UI.createWindow({  
+    title:'Tab 2',
+    backgroundColor:'#fff'
+});
+var tab2 = Titanium.UI.createTab({  
+    icon:'KS_nav_ui.png',
+    title:'Add Phones',
+    window:win2
+});
+
+
+	var phoneLabel = Ti.UI.createLabel({
+		text: phoneData[i].name,
+		width: Ti.UI.FILL,
+		font: {fontSize: "18dp", fontFamily: "Helvetica", fontColor: "#f00"}	
+		});
+		var descriptionLabel = Ti.UI.createLabel({
+			text: phoneData[i].desc,
+			width: Ti.UI.FILL,
+			font: {fontSize: "14dp", fontFamily: "Helvetica", fontColor: "#ccc"}	
+		});
+ 
+tableView.add(phoneLabel);
+	tableView.add(descriptionLabel);
+
+
+tabGroup.addTab(tab1);  
+tabGroup.addTab(tab2);  
+
+
+
+tabGroup.open();
