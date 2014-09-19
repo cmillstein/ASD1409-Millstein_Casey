@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+var ui = require("ui");
+
+ui.submit.addEventListener("click", function (e){
+	if (ui.submit.edit != true) {
+		alert("create!");
+		var newTitle = ui.nameField.value;
+		var newDesc = ui.descField.value;
+		ui.nameField.value = "";
+		ui.descField.value = "";
+		ui.nameField.blur();
+		ui.descField.blue();
+		data.create(newTitle, newDesc);
+		data.read();
+	} else {
+		ui.tableData.removeAllChildren();
+		data.update(ui.submit.index, ui.submit.location);
+	}
+});

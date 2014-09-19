@@ -1,0 +1,39 @@
+Logger started at: Thursday, September 18, 2014 9:46:20 PM EDT
+Component: com.appcelerator.titanium.ios.core
+Version: 1.0.0.1397694901
+[46:20.782] Sent: >21*1411091180780*version<
+[46:20.783] Recv: >1411091180780*2*3.2.3.GA<
+[46:20.787] Sent: >20*1411091180781*update<
+[46:20.787] Recv: >1411091180781*3.2.3.GA<
+[46:20.788] Sent: >45*1411091180782*option*stepFiltersEnabled*false<
+[46:20.789] Recv: >1411091180782<
+[46:20.789] Sent: >36*1411091180783*option*monitorXHR*true<
+[46:20.789] Recv: >1411091180783<
+[46:20.789] Sent: >45*1411091180784*option*suspendOnFirstLine*false<
+[46:20.790] Recv: >1411091180784<
+[46:20.790] Sent: >46*1411091180785*option*suspendOnExceptions*false<
+[46:20.790] Recv: >1411091180785<
+[46:20.790] Sent: >41*1411091180786*option*suspendOnErrors*true<
+[46:20.790] Recv: >1411091180786<
+[46:20.791] Sent: >43*1411091180787*option*suspendOnKeywords*true<
+[46:20.791] Recv: >1411091180787<
+[46:20.791] Sent: >45*1411091180788*option*bypassConstructors*false<
+[46:20.791] Recv: >1411091180788<
+[46:20.791] Sent: >45*1411091180789*option*stepFiltersEnabled*false<
+[46:20.792] Recv: >1411091180789<
+[46:20.792] Sent: >30*1411091180790*detailFormatters<
+[46:20.792] Recv: >1411091180790<
+[46:20.792] Sent: >20*1411091180791*enable<
+[46:20.793] Recv: >1411091180791<
+[46:20.795] Recv: >threads*created*0*kroll$1<
+[46:20.796] Recv: >log*out*[DEBUG] Analytics is enabled = YES<
+[46:20.797] Recv: >log*out*[DEBUG] Loading: /Users/caseymillstein/Library/Application Support/iPhone Simulator/7.1-64/Applications/C3510EC0-A604-4331-8ABA-85FDA116660A/Millstein_Casey_Project3_.app/app.js, Resource: app_js<
+[46:20.797] Recv: >scripts*created*326163040|app:/app.js||1|30<
+[46:20.797] Recv: >resumed*0*started<
+[46:20.798] Recv: >log*out*[DEBUG] Loading: /Users/caseymillstein/Library/Application Support/iPhone Simulator/7.1-64/Applications/C3510EC0-A604-4331-8ABA-85FDA116660A/Millstein_Casey_Project3_.app/ui.js, Resource: ui_js<
+[46:20.798] Recv: >scripts*created*326162944|app:/ui.js||1|134<
+[46:20.800] Recv: >log*out*[DEBUG] Loading: /Users/caseymillstein/Library/Application Support/iPhone Simulator/7.1-64/Applications/C3510EC0-A604-4331-8ABA-85FDA116660A/Millstein_Casey_Project3_.app/_app_props_.json, Resource: _app_props__json<
+[46:20.896] Recv: >log*out*[DEBUG] Loading: /Users/caseymillstein/Library/Application Support/iPhone Simulator/7.1-64/Applications/C3510EC0-A604-4331-8ABA-85FDA116660A/Millstein_Casey_Project3_.app/data.js, Resource: data_js<
+[46:20.896] Recv: >scripts*created*326164320|app:/data.js||1|45<
+[46:20.908] Recv: >log*out*[DEBUG] Application booted in 204.734027 ms<
+----------End of file----------

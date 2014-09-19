@@ -4,7 +4,6 @@ Ti.UI.backgroundColor = 'white';
 var tabGroup = Titanium.UI.createTabGroup();
 
 
-
 var win1 = Ti.UI.createWindow({
 	title: "Phones"
 });
@@ -78,7 +77,7 @@ var tab2 = Titanium.UI.createTab({
     window:win2
 });
 
-var addPhone = Ti.UI.createTextField({
+var addPhone = Ti.UI.createTextArea({
 	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
 	color: '#336699',
 	hintText: "Add Phone",
@@ -87,34 +86,16 @@ var addPhone = Ti.UI.createTextField({
 	top: 35
 });
 
-var addPhoneSize = Ti.UI.createTextField({
+var addPhoneDesc = Ti.UI.createTextArea({
 	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
 	color: '#336699',
-	hintText: "Add Phone Size",
+	hintText: "Add Phone Description",
 	width: 250,
 	height: 60,
 	top: 115
 });
 
-var addPhoneColor = Ti.UI.createTextField({
-	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
-	color: '#336699',
-	hintText: "Add Phone Color",
-	width: 250,
-	height: 60,
-	top: 195
-});
-
-var addPhoneCarrier = Ti.UI.createTextField({
-	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
-	color: '#336699',
-	hintText: "Add Phone Carrier",
-	width: 250,
-	height: 60,
-	top: 275
-});
-
-var submit = Ti.UI.createLabel({
+var button = Ti.UI.createLabel({
 	borderColor: "#000",
 	borderWidth: 3,
 	backgroundColor: "#2d226f",
@@ -123,19 +104,18 @@ var submit = Ti.UI.createLabel({
 	textAlign: "center",
 	left: 15,
 	right: 15,
-	top: 365,
+	top: 185,
 	height: 45,
 	font: {fontSize: 18, fontWeight: "bold"}
 });
 
 exports.addPhone = addPhone;
-exports.addPhoneSize = addPhoneSize;
-exports.addPhoneColor = addPhoneColor;
-exports.addPhoneCarrier = addPhoneCarrier;
-exports.submit = submit;
+exports.addPhoneDesc = addPhoneDesc;
+exports.button = button;
+exports.phoneTable = phoneTable;
+exports.tableData = tableData;
 
-
-win2.add(addPhone, addPhoneSize, addPhoneColor, addPhoneCarrier, submit);
+win2.add(addPhone, addPhoneDesc, button);
 
 tabGroup.addTab(tab1);  
 tabGroup.addTab(tab2);  

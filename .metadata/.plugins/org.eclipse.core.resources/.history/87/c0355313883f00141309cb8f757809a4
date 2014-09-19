@@ -1,0 +1,21 @@
+var ui = require("ui");
+
+Ti.Database.install("database/iphone.sqlite", "iphoneInfo");
+
+//CREATE
+
+
+//READ
+
+
+
+//UPDATE
+
+
+
+
+//DELETE
+
+
+
+
