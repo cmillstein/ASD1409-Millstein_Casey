@@ -1,6 +1,5 @@
 var ui = require("ui");
 
-
 Ti.Database.install("database/iphone.sqlite", "iphoneInfo");
 
 //CREATE
@@ -10,10 +9,7 @@ var create = function(name, desc){
 	var rowID = db.lastInsertRowId;
 	tableData = [];
 	ui.tabGroup.setActiveTab(ui.tab1);
-	read();
 };
-
-
 exports.create = create;
 
 //READ
@@ -28,42 +24,21 @@ var read = function(){
 			desc: dbRows.fieldByName("desc")
 		});
 		dbRows.next();
-		
 	}
 	dbRows.close();
 	db.close();
 	ui.phoneTable(tblData);
 };
+
 exports.read = read;
 
 //UPDATE
-var update = function(index, location){
-	var db = Ti.Databse.open("iphoneInfo");
-	db.execute('UPDATE iphone SET name=?, desc=? WHERE id=?', ui.addPhone.value, ui.addPhoneDesc.value, ui.button.id);
-	db.close();
-	tblData = [];
-	read();
-	ui.tabGroup.setActiveTab(ui.tab1);
-	ui.button.id = null;
-	ui.button.edit = false;
-	ui.button.title = "Add Phone";
-	ui.addPhone.value = "";
-	ui.addPhoneDesc.value = "";
-	win2.title = "Add Phone";
-	ui.tab2.title = "Add";
-};
-exports.update = update;
+
+
 
 
 //DELETE
-var del = function(id){
-	var db = Ti.Database.open("iphoneInfo");
-	db.execute("DELETE FROM iphone WHERE id=?", id);
-	db.close();
-	tblData = [];
-	read();
-};
-exports.del = del;
+
 
 
 

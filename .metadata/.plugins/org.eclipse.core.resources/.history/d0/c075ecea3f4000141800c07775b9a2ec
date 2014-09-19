@@ -28,17 +28,17 @@ var phoneTable = function(phoneData){
 	
 	var dataTable = [];
 	for (i in phoneData) {
+		var tableRows = Ti.UI.createTableViewRow({
+			id: phoneData[i].id,
+			width: Ti.UI.FILL,
+			height: "50dp",
+		});
 		var tableView = Ti.UI.createTableView({
 		layout: "vertical",
 		left: "15dp",
 		top: "5dp",
 		height: Ti.UI.FILL,
 		width: Ti.UI.FILL	
-	});
-	var tableRows = Ti.UI.createTableViewRow({
-			id: phoneData[i].id,
-			width: Ti.UI.FILL,
-			height: "50dp",
 	});
 		var phoneLabel = Ti.UI.createTableViewSection({
 		text: phoneData[i].name,

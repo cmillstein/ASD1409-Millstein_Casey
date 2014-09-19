@@ -1,5 +1,5 @@
 var ui = require("ui");
-
+var app = require('app');
 
 Ti.Database.install("database/iphone.sqlite", "iphoneInfo");
 
@@ -33,6 +33,7 @@ var read = function(){
 	dbRows.close();
 	db.close();
 	ui.phoneTable(tblData);
+	read();
 };
 exports.read = read;
 
@@ -63,7 +64,6 @@ var del = function(id){
 	tblData = [];
 	read();
 };
-exports.del = del;
 
 
 

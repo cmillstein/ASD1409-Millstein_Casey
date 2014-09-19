@@ -35,7 +35,7 @@ var phoneTable = function(phoneData){
 		height: Ti.UI.FILL,
 		width: Ti.UI.FILL	
 	});
-	var tableRows = Ti.UI.createTableViewRow({
+	var tableRows = Ti.UI.createTableView({
 			id: phoneData[i].id,
 			width: Ti.UI.FILL,
 			height: "50dp",

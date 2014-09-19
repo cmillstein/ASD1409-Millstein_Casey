@@ -1,5 +1,5 @@
 var ui = require("ui");
-
+var app = require('app');
 
 Ti.Database.install("database/iphone.sqlite", "iphoneInfo");
 
@@ -10,10 +10,8 @@ var create = function(name, desc){
 	var rowID = db.lastInsertRowId;
 	tableData = [];
 	ui.tabGroup.setActiveTab(ui.tab1);
-	read();
 };
-
-
+read();
 exports.create = create;
 
 //READ
@@ -56,14 +54,7 @@ exports.update = update;
 
 
 //DELETE
-var del = function(id){
-	var db = Ti.Database.open("iphoneInfo");
-	db.execute("DELETE FROM iphone WHERE id=?", id);
-	db.close();
-	tblData = [];
-	read();
-};
-exports.del = del;
+
 
 
 
