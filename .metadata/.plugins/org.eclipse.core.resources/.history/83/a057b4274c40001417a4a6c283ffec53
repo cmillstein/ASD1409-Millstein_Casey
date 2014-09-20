@@ -28,24 +28,24 @@ var phoneTable = function(phoneData){
 	
 	var dataTable = [];
 	for (i in phoneData) {
-	var tableRows = Ti.UI.createTableViewRow({
-			id: phoneData[i].id,
-			width: Ti.UI.FILL,
-			height: "50dp",
-	});
-	var tableView = Ti.UI.createTableView({
+		var tableView = Ti.UI.createTableView({
 		layout: "vertical",
 		left: "15dp",
 		top: "5dp",
 		height: Ti.UI.FILL,
 		width: Ti.UI.FILL	
 	});
-		var phoneLabel = Ti.UI.createLabel({
+	var tableRows = Ti.UI.createTableViewRow({
+			id: phoneData[i].id,
+			width: Ti.UI.FILL,
+			height: "50dp",
+	});
+		var phoneLabel = Ti.UI.createTableViewSection({
 		text: phoneData[i].name,
 		width: Ti.UI.FILL,
 		font: {fontSize: "18dp", fontFamily: "Helvetica", fontColor: "#f00"}	
 		});
-		var descriptionLabel = Ti.UI.createLabel({
+		var descriptionLabel = Ti.UI.createTableViewSection({
 			text: phoneData[i].desc,
 			width: Ti.UI.FILL,
 			font: {fontSize: "14dp", fontFamily: "Helvetica", fontColor: "#ccc"}	
@@ -53,8 +53,7 @@ var phoneTable = function(phoneData){
  
  
 	
-	tableView.add(phoneLabel);
-	tableView.add(descriptionLabel);
+
 	tableRows.add(tableView);
 	dataTable.push(tableRows);
 	
@@ -126,5 +125,7 @@ exports.tab2 = tab2;
 exports.tabGroup = tabGroup;
 
 
-win1.add(tableData);
+
+win1.add(table);
 win1.open();
+

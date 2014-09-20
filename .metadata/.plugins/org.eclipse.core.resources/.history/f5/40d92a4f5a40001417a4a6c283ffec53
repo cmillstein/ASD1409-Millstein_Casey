@@ -125,6 +125,3 @@ exports.tab1 = tab1;
 exports.tab2 = tab2;
 exports.tabGroup = tabGroup;
 
-
-win1.add(tableData);
-win1.open();

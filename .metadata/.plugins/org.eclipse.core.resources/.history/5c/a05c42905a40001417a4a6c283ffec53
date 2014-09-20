@@ -21,11 +21,6 @@ ui.button.addEventListener("click", function (e){
 	}
 });
 
-var win2 = Titanium.UI.createWindow({  
-    title:'Add Phones',
-    backgroundColor:'#EEE'
-});
-
 ui.tableData.addEventListener("click", function (e){
 	var dialog = Ti.UI.createAlertDialog({
 		cancel: 2,
@@ -45,7 +40,7 @@ ui.tableData.addEventListener("click", function (e){
 			ui.button.id = e.row.id;
 			ui.button.edit = true;
 			ui.button.index = e.index;
-			win2.title = "Update Phone";
+			data.win2.title = "Update Phone";
 			ui.tab2.title = "Update";
 			ui.tabGroup.setActiveTab(ui.tab2);
 		}

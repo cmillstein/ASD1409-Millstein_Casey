@@ -40,7 +40,7 @@ var phoneTable = function(phoneData){
 		height: Ti.UI.FILL,
 		width: Ti.UI.FILL	
 	});
-		var phoneLabel = Ti.UI.createLabel({
+		var phoneLabel = Ti.UI.creaLabel({
 		text: phoneData[i].name,
 		width: Ti.UI.FILL,
 		font: {fontSize: "18dp", fontFamily: "Helvetica", fontColor: "#f00"}	
@@ -126,5 +126,6 @@ exports.tab2 = tab2;
 exports.tabGroup = tabGroup;
 
 
-win1.add(tableData);
+win1.add(table);
 win1.open();
+
