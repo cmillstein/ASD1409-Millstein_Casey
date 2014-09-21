@@ -13,8 +13,9 @@ ui.button.addEventListener("click", function (e){
 		ui.addPhoneDesc.value = "";
 		ui.addPhone.blur();
 		ui.addPhoneDesc.blur();
-		data.create(newName, newDesc);
 		data.read();
+		data.create(newName, newDesc);
+		
 	} else {
 		ui.tableData.removeAllChildren();
 		data.update(ui.button.index, ui.button.location);

@@ -2,7 +2,7 @@
 
 var ui = require("ui");
 var data = require("data");
-data.read();
+//data.read();
 
 ui.button.addEventListener("click", function (e){
 	if (ui.button.edit != true) {

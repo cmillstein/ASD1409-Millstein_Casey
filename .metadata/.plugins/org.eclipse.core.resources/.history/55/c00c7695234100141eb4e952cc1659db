@@ -1,7 +1,7 @@
 var ui = require("ui");
 
 
-Ti.Database.install("database/iphoneThree.sqlite", "iphoneInfo");
+Ti.Database.install("database/iphoneTwo.sqlite", "iphoneInfo");
 
 //CREATE
 var create = function(name, desc){

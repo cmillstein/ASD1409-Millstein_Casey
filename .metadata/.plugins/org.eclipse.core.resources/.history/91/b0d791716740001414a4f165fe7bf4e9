@@ -1,7 +1,7 @@
 var ui = require("ui");
 
 
-Ti.Database.install("database/iphoneThree.sqlite", "iphoneInfo");
+Ti.Database.install("database/iphone.sqlite", "iphoneInfo");
 
 //CREATE
 var create = function(name, desc){
@@ -10,6 +10,7 @@ var create = function(name, desc){
 	var rowID = db.lastInsertRowId;
 	tableData = [];
 	ui.tabGroup.setActiveTab(ui.tab1);
+	read();
 };
 
 
@@ -26,7 +27,8 @@ var read = function(){
 			name: dbRows.fieldByName("name"),
 			desc: dbRows.fieldByName("desc")
 		});
-		dbRows.next();	
+		dbRows.next();
+		
 	}
 	dbRows.close();
 	db.close();
@@ -36,7 +38,7 @@ exports.read = read;
 
 //UPDATE
 var update = function(index, location){
-	var db = Ti.Database.open("iphoneInfo");
+	var db = Ti.Databse.open("iphoneInfo");
 	db.execute('UPDATE iphone SET name=?, desc=? WHERE id=?', ui.addPhone.value, ui.addPhoneDesc.value, ui.button.id);
 	db.close();
 	tblData = [];

@@ -1,14 +1,14 @@
 var ui = require("ui");
 
 
-Ti.Database.install("database/iphoneThree.sqlite", "iphoneInfo");
+Ti.Database.install("database/iphone.sqlite", "iphoneInfo");
 
 //CREATE
 var create = function(name, desc){
 	var db = Ti.Database.open("iphoneInfo");
 	db.execute("INSERT INTO iphone (name, desc) VALUES(?,?)", name, desc);
 	var rowID = db.lastInsertRowId;
-	tableData = [];
+	//tableData = [];
 	ui.tabGroup.setActiveTab(ui.tab1);
 };
 

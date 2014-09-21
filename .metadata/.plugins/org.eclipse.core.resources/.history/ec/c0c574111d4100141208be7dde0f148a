@@ -6,7 +6,7 @@ data.read();
 
 ui.button.addEventListener("click", function (e){
 	if (ui.button.edit != true) {
-		alert("New Phone Created!");
+		alert("create!");
 		var newName = ui.addPhone.value;
 		var newDesc = ui.addPhoneDesc.value;
 		ui.addPhone.value = "";
