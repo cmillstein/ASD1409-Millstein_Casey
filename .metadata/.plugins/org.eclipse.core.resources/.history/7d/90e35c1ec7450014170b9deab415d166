@@ -1,0 +1,6 @@
+var reddit = "http://api.reddit.com/r/pics";
+
+
+
+exports.Object = info; 
+exports.reddit = reddit;

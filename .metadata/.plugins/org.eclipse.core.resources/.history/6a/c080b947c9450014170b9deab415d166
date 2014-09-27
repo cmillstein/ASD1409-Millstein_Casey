@@ -1,0 +1,8 @@
+Ti.Database.install("dataBase.sqlite", "productDB");
+
+
+for(var i=0, j=data.list.products.children.length; i<j; i++){
+	var item = data.list.products.children[i].data;
+	var productInfo = new product.Object(item);
+}
+

@@ -1,0 +1,12 @@
+var info = function(obj){
+	this.score = obj.score;
+	this.ups = obj.ups;
+	this.downs = obj.downs;
+	this.subreddit = function(){
+		alert(obj.subreddit);
+	};
+};
+
+
+
+exports.Object = info;

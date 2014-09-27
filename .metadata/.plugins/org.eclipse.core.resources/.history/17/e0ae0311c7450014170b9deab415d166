@@ -1,0 +1,9 @@
+var Product = function(obj){
+	this.score = obj.score;
+	this.ups = obj.ups;
+	this.downs = obj.downs;
+	};
+};
+
+exports.Object = Product;
+

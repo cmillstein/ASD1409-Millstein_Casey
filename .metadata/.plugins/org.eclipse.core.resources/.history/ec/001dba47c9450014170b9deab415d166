@@ -1,0 +1,10 @@
+var Product = function(obj){
+	this.name = obj.name;
+	this.price = obj.price;
+	this.getPrice = function(){
+		var getContract = alert(this.contract);
+	};
+};
+
+exports.Object = Product;
+

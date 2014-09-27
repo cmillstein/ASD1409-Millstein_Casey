@@ -1,0 +1,1 @@
+Ti.Database.install("http://api.reddit.com/r/pics");

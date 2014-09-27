@@ -1,0 +1,22 @@
+var iphones = {
+	iphones:{
+		children: [
+		{
+			data: {
+				name: "iPhone 4S",
+				description: "A5 Processor",
+				price: "Free With 2-year contract"
+			}	
+		},
+		{
+				data: {
+					name: "iPhone 6",
+					description: "A8 Processor",
+					price: "$199 with 2-year contract"				
+					}
+				}
+			]
+		}
+	};
+
+exports.list = iphones;

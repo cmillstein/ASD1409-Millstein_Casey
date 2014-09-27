@@ -1,0 +1,5 @@
+var reddit = "http://api.reddit.com/r/pics";
+
+
+
+exports.reddit = reddit;

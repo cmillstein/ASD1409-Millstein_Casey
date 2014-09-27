@@ -1,0 +1,16 @@
+var Product = function(obj){
+	this.name = obj.name;
+	this.price = obj.price;
+	this.contract = obj.contract;
+
+
+
+
+//	var db = Ti.Database.open("productDB");
+//	var row = db.execute('INSERT INTO items (products) VALUES(?)', JSON.stringify(this));
+	//db.close();
+};
+
+
+exports.Object = Product;
+

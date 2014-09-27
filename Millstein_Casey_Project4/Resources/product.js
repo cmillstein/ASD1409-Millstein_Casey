@@ -1,0 +1,28 @@
+var Product = function(obj){
+	this.name = obj.name;
+	this.price = obj.price;
+	this.contract = obj.contract;
+	this.stock = obj.stock;
+	this.checkStock = function(){
+		if (this.stock === true){
+			var result = "The item is in stock. ";	
+		}else{
+			var result = "The item is NOT in stock. ";
+		}
+		return result;
+	};
+
+
+
+
+	var db = Ti.Database.open("productDB");
+	var row = db.execute('INSERT INTO items (product) VALUES(?)', JSON.stringify(this));
+	db.close();
+};
+
+
+
+
+
+exports.Object = Product;
+
