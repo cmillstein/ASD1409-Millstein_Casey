@@ -1,0 +1,10 @@
+
+
+	var db = Ti.Database.open("productDB");
+	var row = db.execute('INSERT INTO items (product) VALUES(?)', JSON.stringify(this));
+	db.close();
+
+
+
+
+exports.Object = Product;
