@@ -2,7 +2,6 @@ var reddit = "http://api.reddit.com/r/pics";
 
 
 
-
 var success = function(){
 	var replyData = JSON.parse(this.responseText);
 	var posts = replyData.data.children;
@@ -29,13 +28,11 @@ var success = function(){
 	});
 	newPost.add(label);
 	scrollView.add(newPost);
-	exports.rd = replyData;
-	exports.posts = posts;
 	}
 };
 
 
-
+exports.replyData = replyData;
 
 var showPic = function(rdt){
 	var newWindow = Ti.UI.createWindow({

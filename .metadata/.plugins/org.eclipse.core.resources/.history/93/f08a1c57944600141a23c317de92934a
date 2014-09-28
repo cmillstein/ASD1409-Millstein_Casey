@@ -1,7 +1,7 @@
 var reddit = "http://api.reddit.com/r/pics";
 
 
-
+exports.reddit = reddit;
 
 var success = function(){
 	var replyData = JSON.parse(this.responseText);
@@ -29,12 +29,8 @@ var success = function(){
 	});
 	newPost.add(label);
 	scrollView.add(newPost);
-	exports.rd = replyData;
-	exports.posts = posts;
 	}
 };
-
-
 
 
 var showPic = function(rdt){

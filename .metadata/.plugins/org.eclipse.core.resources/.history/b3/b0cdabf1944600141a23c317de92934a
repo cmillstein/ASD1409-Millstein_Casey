@@ -1,7 +1,9 @@
 var reddit = "http://api.reddit.com/r/pics";
 
 
-
+var data = require("data");
+var product = require("product");
+var api = require("api");
 
 var success = function(){
 	var replyData = JSON.parse(this.responseText);

@@ -22,7 +22,9 @@ var Product = function(obj){
 
 
 
-
+var data = require("data");
+var product = require("product");
+var api = require("api");
 
 
 exports.Object = Product;

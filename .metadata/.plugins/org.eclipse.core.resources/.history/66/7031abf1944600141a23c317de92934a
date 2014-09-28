@@ -1,11 +1,12 @@
 Ti.Database.install("dataBase.sqlite", "productDB");
 
-var data = require("data");
 
-//for(var i=0, j=data.posts.children.length; i<j; i++){
-//var item = data.posts.children[i].data;
-//var productInfo = new product.Object(item);
-//}
+
+
+for(var i=0, j=data.rd.children.length; i<j; i++){
+var item = data.rd.children[i].data;
+var productInfo = new product.Object(item);
+}
 
 var db = Ti.Database.open("productDB");
 var seeData = db.execute('SELECT * FROM items');

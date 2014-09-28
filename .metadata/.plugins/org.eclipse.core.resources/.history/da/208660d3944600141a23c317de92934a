@@ -2,7 +2,6 @@ var reddit = "http://api.reddit.com/r/pics";
 
 
 
-
 var success = function(){
 	var replyData = JSON.parse(this.responseText);
 	var posts = replyData.data.children;
