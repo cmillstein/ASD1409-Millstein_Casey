@@ -2,7 +2,7 @@ Ti.Database.install("dataBase.sqlite", "productDB");
 
 var data = require("data");
 
-for(var i=0, j=data.posts; i<j; i++){
+for(var i=0, j=data.posts.length; i<j; i++){
 var item = data.posts[i].data;
 var productInfo = new product.Object(item);
 }
